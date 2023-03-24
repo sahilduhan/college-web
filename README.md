@@ -1,5 +1,6 @@
 # college-web
 This is a college website
+<br>
 Home page is desinged by yatharth @yatarthsharma1309
 Contact us is designed by Arijit @raja-7890
 Gallery is Designed by Ayush Manware @ayush-manware
