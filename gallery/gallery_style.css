@@ -1,0 +1,347 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat&family=Poppins:ital@1&family=Raleway:wght@300;400&family=Roboto+Slab:wght@100;200;500;600;700&family=Sono:wght@500&family=Tilt+Neon&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+    outline: none;
+    border: none;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: rgb(255, 255, 255);
+  }
+::-webkit-scrollbar-thumb {
+    background-image:linear-gradient(rgb(255, 255, 255), skyblue) ; 
+    border-radius:10px;
+  }
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    background-color: rgb(240, 240, 240);
+}
+
+.header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    /* display: -webkit-box;
+    display: -ms-flexbox; */
+    display: flex;
+    /* -webkit-box-align: center; */
+    /* -ms-flex-align: center; */
+    align-items: center;
+    /* -webkit-box-pack: justify;
+    -ms-flex-pack: justify; */
+    justify-content: space-between;
+    padding-inline:3vw;
+    background: #ffffff;
+}
+
+.header .logo {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    color: rgb(255, 153, 0);
+}
+
+.header .logo i {
+    color: rgb(255, 153, 0);
+}
+
+.header .navbar ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.header .navbar ul li {
+    position: relative;
+    margin-inline: 5px;
+}
+
+.header .navbar ul li:hover ul {
+    display: block;
+}
+
+.header .navbar ul li a {
+    padding: 2rem;
+    display: block;
+    font-size: 20px;
+    color: rgb(141, 141, 141);
+    border-bottom: 5px solid #ffffff;
+}
+
+.header .navbar ul li a:hover {
+  text-shadow: 1.2px 1.2px 1px rgb(99, 99, 99);
+  transition: ease-in-out all 0.3s;
+  border-bottom: 2px solid rgb(255, 153, 0); 
+  padding-bottom: 5px;
+}
+
+.header .navbar ul li ul {
+    position: absolute;
+    left: 0;
+    width: 20rem;
+    background: #224bcf;
+    display: none;
+}
+
+.header .navbar ul li ul li {
+    width: 100%;
+}
+
+#menu-btn {
+    cursor: pointer;    
+    color: #fff;
+    font-size: 2.5rem;
+    display: none;
+}
+
+.top-highlights p{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    color: rgb(56, 55, 55);
+    margin-bottom: 4vh;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    padding: 4vh;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.banner_image{
+    width: 99vw;
+    height: auto;
+    display: block;
+    position: relative;
+    margin-bottom: 50px;
+}
+
+.banner p{
+    position: absolute;
+    top: 40vh;
+    left: 0%;
+    padding-left: 20px; 
+    color: white;
+    font-size: 70px;
+}
+
+.section .inner-container{  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    align-items: center;
+}
+
+.section .inner-container .boxes{
+    width: auto;
+    height: 300px;
+    margin: 25px;
+    background-color: #fffbfb;
+    /* box-shadow: 5px 3px 10px rgb(168, 168, 168); */
+}
+
+#div2{
+    width: 400px;
+    height: auto;
+    border-bottom-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+    opacity: 0.9;
+}
+
+#div2 img{
+    border-top-left-radius: 5vw;
+}
+
+#div2 h2{
+    padding: 10px;
+}
+
+#div2 p{
+    padding: 10px;
+    font-size: 14px;
+    color:gray;
+    text-align: justify;
+}
+
+#div2 a{
+    padding: 10px;
+} 
+
+#div2:hover{
+    opacity: 10;
+    filter: drop-shadow(2px 2px 6px gray);
+    transition: 0.3s;
+}
+
+.section2{
+    display: block;
+    margin: 10vh 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section2 .heading {
+    text-align: center;
+    letter-spacing: 2px; 
+    font-family: 'Raleway', sans-serif; 
+    color: rgb(61, 61, 61);
+    font-size: 45px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 10vh;
+    padding: 10px 0px;  
+}
+
+.section2 .art-culture{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: auto;
+    width: 94vw;
+    margin-bottom: 100px;
+    background: #ffffff;
+    border-bottom-right-radius: 5vw;
+    border-top-left-radius: 5vw;
+    box-shadow: 3px 3px 10px gray;
+}
+
+
+.section2 .art-culture img{
+    margin-top: 4px;
+    border-radius: 10px;
+}
+
+.section2 .art-culture .content{
+    margin-top: 4px;
+}
+
+.section2 .art-culture .content h2{
+     font-size: 60px;
+     border-bottom: 4px solid rgb(204, 144, 15); 
+}
+
+.section2 .art-culture .content p{
+margin-top: 10vh;
+font-size: 16px;
+}
+
+.phone{
+    background: rgb(238, 187, 19);
+    width: 50px;
+    height: 70px;
+    color: white;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+}
+
+.phone:hover{
+   width: 170px;
+   transition: 0.3s;
+}
+
+.phone a{
+   color: white;
+   display: none;
+} 
+
+.phone:hover a{
+   display: flex;
+} 
+
+#side1{
+    position: fixed;
+    top: 150px;
+    right: 0px;
+}
+
+#side2{
+    position: fixed;
+    top: 230px;
+    right: 0px;
+}
+
+#side3{
+    position: fixed;
+    top: 310px;
+    right: 0px;
+}
+
+#side4{
+    position: fixed;
+    top: 390px;
+    right: 0px;
+}
+
+#side5{
+    position: fixed;
+    top: 470px;
+    right: 0px;
+}
+
+footer {
+    background: rgba(204, 144, 15, 0.856); 
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center; 
+    padding-top: 20px;
+}
+
+footer li {
+    list-style-type: none;
+} 
+
+footer a{
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+}
+
+footer .footerdivs{
+    border-right: 1px solid rgb(255, 255, 255); 
+    padding: 10px;
+}
+
+#f-div3{
+    height: 165px;
+}
+
+#f-div3 li{
+    margin-top: 15px;
+}
+
+#f-div4{
+    /* width: 25vw; */
+    border: none; 
+    font-size: 20px; 
+}
+
+#f-div4 .help-desk1{
+    background: rgb(255, 255, 255);
+    padding: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 25vw;
+    color: gray;
+}
+
+
+#f-div4 .help-desk3 p{
+    font-size:12px;
+    color: rgb(255, 255, 255);
+}
