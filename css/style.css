@@ -241,6 +241,149 @@ section {
     border-radius: 1rem;
     margin-top: 1rem;
 }
+
+.blocks{
+    font-size: 1.2rem;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1rem;
+    text-align: center;
+}
+.awards{
+    display: inline;
+    /* border: 2px solid black; */
+}
+.teachers{
+    display: inline;
+    /* border: 2px solid black; */
+}
+.curriculum{
+    display: inline;
+    /* border: 2px solid black; */
+}
+.block_image{
+    display: inline;
+    float: left;
+    gap: 1rem;
+}
+section.Blogs{
+    font-size: 1.25rem;
+    text-align: center;
+}
+.blog{
+    float: left;
+    width: 50%;
+    padding: 10px;
+    /* border: 2px solid black; */
+}
+.Our_Blogs:after{ /*doubt css */
+    content: "";
+    display: table;
+    clear: both;
+}
+footer{
+    background-color: #224bcf;
+    color: white;
+    /* padding: 20px; */
+    text-align: center;
+    display: flex;
+    font-size: 1.6rem;
+}
+ul.footer_list{
+    list-style-type: none;
+    /* color: white;
+    background-color: #224bcf; */
+}
+.left{
+    float: left;
+    width: 33%;
+    padding: 20px; 
+}
+.contact_us{
+    padding-top: 10px;
+}
+.center{
+    margin-left: auto;
+    margin-right: auto;
+    width: 33%;
+    padding: 20px;
+}
+.right{
+    float: right;
+    width: 34%;
+    padding: 20px;
+}
+.subscribe{
+    padding-top: 10px;
+}
+.category{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+.Computer_Science_And_Engineering{
+    text-align: center;
+}
+.Computer_Science_And_Engineering:hover{
+    background-color: #11ee83;
+}
+.Mechanical_Engineering{
+    text-align: center;
+}
+.Mechanical_Engineering:hover{
+    background-color: #11ee83;
+}
+.Electrical_Engineering{
+    text-align: center;
+}
+.Electrical_Engineering:hover{
+    background-color: #11ee83;
+}
+.Electronics_And_Communication_Engineering{
+    text-align: center;
+}
+.Electronics_And_Communication_Engineering:hover{
+    background-color: #11ee83;
+}
+.Information_Technology{
+    text-align: center;
+}
+.Information_Technology:hover{
+    background-color: #11ee83;
+}
+div.awards:hover{
+    background-color: #6a4dd5;
+}
+div.teachers:hover{
+    background-color: #6a4dd5;
+}
+div.curriculum:hover{
+    background-color: #6a4dd5;
+}
+.btn:hover{
+    background-color: red;
+}
+.blog1:hover{
+    background-color: #6a4dd5;
+}
+.blog2:hover{
+    background-color: #6a4dd5;
+}
+.blog3:hover{
+    background-color: #6a4dd5;
+}
+.blog4:hover{
+    background-color: #6a4dd5;
+}
+.blog5:hover{
+    background-color: #6a4dd5;
+}
+.blog6:hover{
+    background-color: #6a4dd5;
+}
+.Our_Courses_Heading{
+    font-size: 1.3rem;
+=======
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 * {
