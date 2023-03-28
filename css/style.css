@@ -275,7 +275,7 @@ section.Blogs{
     padding: 10px;
     /* border: 2px solid black; */
 }
-.Our_Blogs:after{
+.Our_Blogs:after{ /*doubt css */
     content: "";
     display: table;
     clear: both;
@@ -314,4 +314,72 @@ ul.footer_list{
 }
 .subscribe{
     padding-top: 10px;
+}
+.category{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 1rem;
+}
+.Computer_Science_And_Engineering{
+    text-align: center;
+}
+.Computer_Science_And_Engineering:hover{
+    background-color: #11ee83;
+}
+.Mechanical_Engineering{
+    text-align: center;
+}
+.Mechanical_Engineering:hover{
+    background-color: #11ee83;
+}
+.Electrical_Engineering{
+    text-align: center;
+}
+.Electrical_Engineering:hover{
+    background-color: #11ee83;
+}
+.Electronics_And_Communication_Engineering{
+    text-align: center;
+}
+.Electronics_And_Communication_Engineering:hover{
+    background-color: #11ee83;
+}
+.Information_Technology{
+    text-align: center;
+}
+.Information_Technology:hover{
+    background-color: #11ee83;
+}
+div.awards:hover{
+    background-color: #6a4dd5;
+}
+div.teachers:hover{
+    background-color: #6a4dd5;
+}
+div.curriculum:hover{
+    background-color: #6a4dd5;
+}
+.btn:hover{
+    background-color: red;
+}
+.blog1:hover{
+    background-color: #6a4dd5;
+}
+.blog2:hover{
+    background-color: #6a4dd5;
+}
+.blog3:hover{
+    background-color: #6a4dd5;
+}
+.blog4:hover{
+    background-color: #6a4dd5;
+}
+.blog5:hover{
+    background-color: #6a4dd5;
+}
+.blog6:hover{
+    background-color: #6a4dd5;
+}
+.Our_Courses_Heading{
+    font-size: 1.3rem;
 }
