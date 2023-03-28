@@ -243,6 +243,156 @@ section {
     margin-top: 1rem;
 }
 
+.contact-page{
+    position: sticky;
+    width: 100%;
+    height: 100vh;
+    background: plum; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contact-item{
+    width: 100%;
+    height: 550px;
+    max-width: 820px;
+    background: yellow;
+    border-radius: 20px;
+    box-shadow: 0 0 20px 10px rgba(0,0,0,.4);
+    overflow: hidden;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    z-index: 1000;
+}
+.contact-us{
+    background: #f5f5f5;
+}
+.form{
+    background: plum;
+}
+.text{
+    color: plum;
+    padding-left: 20px;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 600;
+}
+.contactus-image{
+    height: 250x;
+    width: 400px;
+    margin-top: 90px;
+}
+.social-media{
+    display: flex;
+    list-style: none;
+}
+i {
+    background: plum;
+    padding: 5px;
+    border-radius: 5px;
+    transition: .3s;
+    color: #fff;
+}
+li{
+    padding-left: 15px;
+    margin-top: 10px;
+    font-size: 25px;
+}
+.social-media i:hover{
+    background: #fff;
+    color: plum;
+
+}
+.text-second{
+    font-size: 15px;
+    padding-left: 15px;
+    font-weight: 600;
+    color: plum;
+}
+.third-text{
+    font-size: 25px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    padding-top: 10px;
+    color: #fff;
+}
+form{
+    padding: 0 50px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;   
+}
+.input-box{
+    height: 40px;
+    width: 70%;
+    margin: 30px 0;
+    position: relative;
+}
+.input{
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+}
+.input-box label{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    padding-left: 10px;
+    transform: translateY(-50%);
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+    transition: .3s;
+}
+.input-box .input:focus ~ label,
+.input-box .input:valid ~ label{
+    top: -1px;
+    left: 10px;
+    font-size: 500;
+    background: plum;
+}
+textarea.input{
+    resize: none;
+    min-height: 150px;
+    overflow: auto;
+}
+.buttn{
+    position: relative;
+    top: 100px;
+    background: #fff;
+    color: plum;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 25%;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: 500;
+}
+@media(max-width:480px){
+    .contact-item{
+        grid-template-columns: 1fr;
+    }
+    .contact-us{
+        display: none;
+    }
+    .text{
+        font-size: 40px;
+        text-align: center;
+    }
+    .buttn{
+        height: 30px;
+        width: 15%;
+        font-size: 12px;
+    }
+
 
 
 /* -------------------------Blog Page---------------------- */
@@ -559,7 +709,7 @@ div.curriculum:hover{
 }
 .Our_Courses_Heading{
     font-size: 1.3rem;
-=======
+
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,700');
 
 * {
